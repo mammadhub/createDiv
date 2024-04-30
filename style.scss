@@ -1,7 +1,6 @@
 *,
 *::before,
-*::after 
-{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +22,8 @@ a {
     text-decoration: none;
     color: black;
 }
-.container{
+
+.container {
     width: 100%;
     margin: 10px;
     display: flex;
@@ -31,12 +31,19 @@ a {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    .item{
-        gap: 10px;
+
+    .item {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center; 
+    }
+
+    .unit {
+        margin-top: 10px; 
+    }
+
+    button {
+        margin-top: 10px; 
     }
 }
-
-
